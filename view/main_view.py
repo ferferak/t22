@@ -1,5 +1,5 @@
 from tkinter import *
-from components import LabelAndEntry, Table
+from view.components.components import Table, LabelAndEntry
 
 class MainView:
     def __init__(self):
