@@ -15,7 +15,7 @@ class MainView:
 
         self.table = Table(self.window, ["ID", "Person", "Type", "Amount", "Date", "Time"], [50, 100, 80, 80, 100, 80], 50, 350)
 
-        Button(self.window, text="Add", command=self.add_record).place(x=50, y=300)
+        Button(self.window, text="Add", command=self.add_record).place(x=100, y=400)
         Button(self.window, text="Edit").place(x=150, y=300)
         Button(self.window, text="Remove").place(x=250, y=300)
         Button(self.window, text="Save").place(x=350, y=300)
